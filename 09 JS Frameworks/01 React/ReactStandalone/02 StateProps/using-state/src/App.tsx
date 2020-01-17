@@ -9,13 +9,15 @@ const logo = require('./logo.svg');
 
 export interface AppState {
 	skills: Skill[];
+	name: string;
 }
 
 class App extends React.Component<any, AppState> {
 	constructor(props: any) {
 		super(props);
 		this.state = {
-			skills: []
+			skills: [],
+			name: 'Super'
 		};
 	}
 

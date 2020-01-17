@@ -15,8 +15,11 @@
         <h1>Using Microsoft Graph</h1>
         <a href="#" onclick="signOut()">Sign Out</a>
         <a href="#" onclick="doRead()">Read Graph</a>
-        <a href="#" onclick="createEvent()">Create Event</a>
+        <a href="#" onclick="createSingleEvent()">Create Event</a>
+        <button onclick="createContact()">Create Contact</button>
         <p id="pResult" style="display: none">
+            <h2>New Contact</h2>
+            <ul id="NewContact"></ul>
             <h2>OneDrive documents</h2>
             <ul id="OneDrive"></ul>
             <h2>Events</h2>

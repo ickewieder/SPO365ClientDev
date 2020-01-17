@@ -25,12 +25,21 @@
           "manifest": "./src/webparts/tinyMceWp/TinyMceWpWebPart.manifest.json"
         }
       ]
+    },
+    "zesz-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/zesz/ZeszWebPart.js",
+          "manifest": "./src/webparts/zesz/ZeszWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "ReactBasicsWpWebPartStrings": "lib/webparts/reactBasicsWp/loc/{locale}.js",
     "DocumentCardWpWebPartStrings": "lib/webparts/documentCardWp/loc/{locale}.js",
-    "TinyMceWpWebPartStrings": "lib/webparts/tinyMceWp/loc/{locale}.js"
+    "TinyMceWpWebPartStrings": "lib/webparts/tinyMceWp/loc/{locale}.js",
+    "ZeszWebPartStrings": "lib/webparts/zesz/loc/{locale}.js"
   }
 }

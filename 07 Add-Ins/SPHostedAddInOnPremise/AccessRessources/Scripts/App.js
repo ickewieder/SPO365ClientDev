@@ -68,7 +68,7 @@ function writeHostWebCSOM() {
     appContext.load(li);    
     appContext.executeQueryAsync(function () {
         $("#workbench").html("Host Web list item created successfully: " + li.get_item('Title') + "<br>See console for output");
-        queryList();
+        queryList(list);
     }, errorHandler);
 }
 
@@ -85,16 +85,16 @@ function writeAppWebCSOM() {
     appContext.load(li);
     appContext.executeQueryAsync(function () {
         $("#workbench").html("App Web list item created successfully: " + li.get_item('Title') + "<br>See console for output");
-        queryList();
+        queryList(list);
     }, errorHandler);
 }
 
-function queryList() {
-
+function queryList(createdList) {
+    
     var camlQuery = new SP.CamlQuery();
     camlQuery.set_viewXml('<View><Query><Where><Geq><FieldRef Name=\'ID\'/>' +
         '<Value Type=\'Number\'>1</Value></Geq></Where></Query></View>');
-    var lis = list.getItems(camlQuery);
+    var lis = createdList.getItems(camlQuery);
 
     appContext.load(lis);
     appContext.executeQueryAsync(function() {

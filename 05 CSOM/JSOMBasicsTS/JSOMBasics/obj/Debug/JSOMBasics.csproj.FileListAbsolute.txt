@@ -172,3 +172,6 @@ D:\O365ClientSideDev\04 Object Model Basics\JSOMBasicsTS\JSOMBasics\obj\Debug\JS
 D:\O365ClientSideDev\04 Object Model Basics\JSOMBasicsTS\JSOMBasics\obj\Debug\JSOMBasics.csproj.CoreCompileInputs.cache
 D:\O365ClientSideDev\04 Object Model Basics\JSOMBasicsTS\JSOMBasics\obj\Debug\JSOMBasics.dll
 D:\O365ClientSideDev\04 Object Model Basics\JSOMBasicsTS\JSOMBasics\obj\Debug\JSOMBasics.pdb
+C:\Users\Administrator\Documents\dev\SPO365ClientDev\05 CSOM\JSOMBasicsTS\JSOMBasics\obj\Debug\JSOMBasics.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\dev\SPO365ClientDev\05 CSOM\JSOMBasicsTS\JSOMBasics\obj\Debug\JSOMBasics.dll
+C:\Users\Administrator\Documents\dev\SPO365ClientDev\05 CSOM\JSOMBasicsTS\JSOMBasics\obj\Debug\JSOMBasics.pdb

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Classes\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\dev\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj": {}
   },
   "projects": {
-    "G:\\Classes\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj": {
+    "C:\\Users\\Administrator\\Documents\\dev\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Classes\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\dev\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj",
         "projectName": "GraphServices",
-        "projectPath": "G:\\Classes\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "G:\\Classes\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\dev\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\GraphServices.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\dev\\SPO365ClientDev\\06 Graph & Webhooks\\UsingMSGraph\\src\\GraphServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

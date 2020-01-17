@@ -17,7 +17,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 function basicVariables() {
     debugger;
-    var myname = 'peter';
+    var myname = 'hugo';
     //Numbers
     var age;
     var weight = 83.12;
@@ -585,7 +585,7 @@ function usingPromises() {
         .catch((err) => console.log('Err:', err));
 }
 function useAjax() {
-    var query = 'http://sp2016/_api/web/title';
+    var query = 'http://sp2019/_api/web/title';
     //Callbacks
     $.ajax({
         type: 'GET',

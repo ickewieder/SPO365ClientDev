@@ -1,4 +1,4 @@
-$tenant = "integrationsonline"
+$tenant = "bdrslap"
 Connect-PnPOnline -url https://$tenant.sharepoint.com
 $objAppId = Add-PnPApp -Path ./spfx-alm/sharepoint/solution/sp-fx-alm.sppkg -Overwrite 
 [GUID]$appid = $objAppId.Id

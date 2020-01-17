@@ -1,7 +1,7 @@
 ﻿function basicVariables() {
 	debugger;
 
-	var myname: string = 'peter';
+	var myname: string = 'hugo';
 
 	//Numbers
 	var age: number;
@@ -810,7 +810,7 @@ function usingPromises() {
 }
 
 function useAjax() {
-	var query = 'http://sp2016/_api/web/title';
+	var query = 'http://sp2019/_api/web/title';
 
 	//Callbacks
 	$.ajax({

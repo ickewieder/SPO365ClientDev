@@ -8,8 +8,7 @@ var item;
 function getItems() {
   $.ajax({
     url:
-      _spPageContextInfo.webAbsoluteUrl +
-      "/_api/lists/getByTitle('News')/Items?$select=Id,Title,Body,Created,Modified",
+      "http://sp2019/_api/lists/getByTitle('News')/Items?$select=Id,Title,Body,Created,Modified",
     type: "GET",
     headers: {
       Accept: "application/json;odata=verbose"
@@ -52,7 +51,7 @@ function renderDetails(id) {
     $("#created").val(item.Modified);
   }
 }
-
+/*
 function saveNews() {
 
     Object.assign(item, {
@@ -64,8 +63,7 @@ function saveNews() {
   console.log("saving", item);
 
   var listItemUri =
-    _spPageContextInfo.webAbsoluteUrl +
-    "/_api/web/lists/getbytitle('News')/items(" +
+    "http://sp2019/_api/web/lists/getbytitle('News')/items(" +
     item.Id +
     ")";
 
@@ -88,4 +86,4 @@ function saveNews() {
       console.log(err);
     }
   });
-}
+}*/
